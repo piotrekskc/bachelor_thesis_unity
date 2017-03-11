@@ -4,7 +4,81 @@ timeCreated: 1482535360
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: bodyassault
+    100002: bodyassault01
+    100004: Compass01
+    100006: gear
+    100008: gear 1
+    100010: gear02
+    100012: gear03
+    100014: gear04
+    100016: gear1
+    100018: Group01
+    100020: Group02
+    100022: helmet
+    100024: helmet01
+    100026: obj02
+    100028: obj1
+    100030: Plane01
+    100032: //RootNode
+    400000: bodyassault
+    400002: bodyassault01
+    400004: Compass01
+    400006: gear
+    400008: gear 1
+    400010: gear02
+    400012: gear03
+    400014: gear04
+    400016: gear1
+    400018: Group01
+    400020: Group02
+    400022: helmet
+    400024: helmet01
+    400026: obj02
+    400028: obj1
+    400030: Plane01
+    400032: //RootNode
+    2300000: bodyassault
+    2300002: bodyassault01
+    2300004: gear
+    2300006: gear 1
+    2300008: gear02
+    2300010: gear03
+    2300012: gear04
+    2300014: gear1
+    2300016: helmet
+    2300018: helmet01
+    2300020: obj02
+    2300022: obj1
+    2300024: Plane01
+    3300000: bodyassault
+    3300002: bodyassault01
+    3300004: gear
+    3300006: gear 1
+    3300008: gear02
+    3300010: gear03
+    3300012: gear04
+    3300014: gear1
+    3300016: helmet
+    3300018: helmet01
+    3300020: obj02
+    3300022: obj1
+    3300024: Plane01
+    4300000: Plane01
+    4300002: gear
+    4300004: gear1
+    4300006: obj1
+    4300008: gear
+    4300010: helmet
+    4300012: bodyassault
+    4300014: gear02
+    4300016: gear03
+    4300018: obj02
+    4300020: gear04
+    4300022: helmet01
+    4300024: bodyassault01
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

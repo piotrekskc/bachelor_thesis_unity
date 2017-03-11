@@ -4,7 +4,40 @@ timeCreated: 1482535305
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: bodyassault
+    100002: gear
+    100004: gear 1
+    100006: gear1
+    100008: helmet
+    100010: obj1
+    100012: //RootNode
+    400000: bodyassault
+    400002: gear
+    400004: gear 1
+    400006: gear1
+    400008: helmet
+    400010: obj1
+    400012: //RootNode
+    2300000: bodyassault
+    2300002: gear
+    2300004: gear 1
+    2300006: gear1
+    2300008: helmet
+    2300010: obj1
+    3300000: bodyassault
+    3300002: gear
+    3300004: gear 1
+    3300006: gear1
+    3300008: helmet
+    3300010: obj1
+    4300000: helmet
+    4300002: gear
+    4300004: bodyassault
+    4300006: obj1
+    4300008: gear
+    4300010: gear1
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
