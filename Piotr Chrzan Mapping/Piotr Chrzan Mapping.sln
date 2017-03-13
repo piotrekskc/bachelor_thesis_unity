@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piotr Chrzan Mapping", "Piotr Chrzan Mapping.csproj", "{CBFAB9C0-1EC7-616A-F69A-24DD97E28F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piotr Chrzan Mapping.Editor", "Piotr Chrzan Mapping.Editor.csproj", "{C1B35FE9-29EC-106D-9314-80E52AC85CC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBFAB9C0-1EC7-616A-F69A-24DD97E28F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFAB9C0-1EC7-616A-F69A-24DD97E28F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFAB9C0-1EC7-616A-F69A-24DD97E28F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFAB9C0-1EC7-616A-F69A-24DD97E28F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B35FE9-29EC-106D-9314-80E52AC85CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B35FE9-29EC-106D-9314-80E52AC85CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B35FE9-29EC-106D-9314-80E52AC85CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B35FE9-29EC-106D-9314-80E52AC85CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

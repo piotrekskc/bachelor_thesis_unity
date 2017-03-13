@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MyBasicScene.unity
+- path: Assets/ARToolKit5-Unity/Example Scenes/TwoMarkerScene.unity
   isLoaded: 1
   isActive: 1
