@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -182,10 +176,10 @@
     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
     <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
     <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
-    <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker16.txt" />
-    <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker17.txt" />
-    <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker18.txt" />
-    <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker19.txt" />
+    <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker22222.txt" />
+    <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker3333.txt" />
+    <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker4444.txt" />
+    <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker5555.txt" />
     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
