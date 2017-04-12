@@ -637,7 +637,7 @@ public class ARController : MonoBehaviour
                 // Retrieve ARToolKit video source(s) frame size and format, and projection matrix, and store globally.
                 // Then create the required object(s) to instantiate a mesh/meshes with the frame texture(s).
                 // Each mesh lives in a separate "video background" layer.
-                /*
+                
                 if (!VideoIsStereo) {
 
 					// ARToolKit video size and format.
@@ -687,7 +687,7 @@ public class ARController : MonoBehaviour
 						Log (LogTag + "Error: unable to create video background mesh.");
 					}
 				}
-	            */
+	            
 				// Create background camera(s) to actually view the "video background" layer(s).
 				bool haveStereoARCameras = false;
 				ARCamera[] arCameras = FindObjectsOfType(typeof(ARCamera)) as ARCamera[];
@@ -1085,7 +1085,7 @@ public class ARController : MonoBehaviour
 
 			// Mono.
 			if (_videoTexture0 == null) {
-				Log(LogTag + "Error: No video texture to update.");
+				//Log(LogTag + "Error: No video texture to update.");
 			} else {
 
 				if (_useNativeGLTexturing) {

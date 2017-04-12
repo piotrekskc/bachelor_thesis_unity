@@ -234,8 +234,8 @@ public class ARCamera : MonoBehaviour
 	protected virtual void ApplyTracking()
 	{
 		if (arVisible) {
-			transform.localPosition = arPosition; // TODO: Change to transform.position = PositionFromMatrix(origin.transform.localToWorldMatrix * pose) etc;
-			transform.localRotation = arRotation;
+			//transform.localPosition = arPosition; // TODO: Change to transform.position = PositionFromMatrix(origin.transform.localToWorldMatrix * pose) etc;
+			//transform.localRotation = arRotation;
 		}
 	}
 	
