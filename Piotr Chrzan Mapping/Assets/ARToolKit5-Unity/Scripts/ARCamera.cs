@@ -116,7 +116,7 @@ public class ARCamera : MonoBehaviour
 		Camera c = this.gameObject.GetComponent<Camera>();
 		
 		// A perspective projection matrix from the tracker
-		c.orthographic = false;
+		c.orthographic = true;
 		
 		// Shouldn't really need to set these, because they are part of the custom 
 		// projection matrix, but it seems that in the editor, the preview camera view 
@@ -153,9 +153,10 @@ public class ARCamera : MonoBehaviour
 		
 		// Don't clear anything or else we interfere with other foreground cameras
 		c.clearFlags = CameraClearFlags.Nothing;
-		
-		// Renders after the clear and background cameras
-		c.depth = 2;
+
+        // Renders after the clear and background cameras
+        
+        c.depth = 2;
 		
 		c.transform.position = new Vector3(0.0f, 0.0f, 0.0f);
 		c.transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 1.0f);

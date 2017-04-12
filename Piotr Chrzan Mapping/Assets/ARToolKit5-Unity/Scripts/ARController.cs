@@ -175,7 +175,7 @@ public class ARController : MonoBehaviour
     public float NearPlane = 0.01f;
     public float FarPlane = 5.0f;
 
-	public bool ContentRotate90 = false; // Used in CreateVideoBackgroundCamera().
+	public bool ContentRotate90 = true; // Used in CreateVideoBackgroundCamera().
 	public bool ContentFlipH = false;
 	public bool ContentFlipV = false;
 	public ContentAlign ContentAlign = ContentAlign.Center;
@@ -633,11 +633,12 @@ public class ARController : MonoBehaviour
 				}
             } else {
 				Log(LogTag + "UpdateAR: ARToolKit video is running. Configuring Unity scene for video.");
-		
-				// Retrieve ARToolKit video source(s) frame size and format, and projection matrix, and store globally.
-				// Then create the required object(s) to instantiate a mesh/meshes with the frame texture(s).
-				// Each mesh lives in a separate "video background" layer.
-				if (!VideoIsStereo) {
+
+                // Retrieve ARToolKit video source(s) frame size and format, and projection matrix, and store globally.
+                // Then create the required object(s) to instantiate a mesh/meshes with the frame texture(s).
+                // Each mesh lives in a separate "video background" layer.
+                /*
+                if (!VideoIsStereo) {
 
 					// ARToolKit video size and format.
 				 
@@ -658,7 +659,7 @@ public class ARController : MonoBehaviour
 					if (_videoBackgroundMeshGO0 == null || _videoTexture0 == null || _videoMaterial0 == null) {
 						Log (LogTag + "Error: unable to create video mesh.");
 					}
-
+                    
 				} else {
 
 					// ARToolKit stereo video size and format.
@@ -686,7 +687,7 @@ public class ARController : MonoBehaviour
 						Log (LogTag + "Error: unable to create video background mesh.");
 					}
 				}
-	            
+	            */
 				// Create background camera(s) to actually view the "video background" layer(s).
 				bool haveStereoARCameras = false;
 				ARCamera[] arCameras = FindObjectsOfType(typeof(ARCamera)) as ARCamera[];
@@ -1228,7 +1229,8 @@ public class ARController : MonoBehaviour
 	
 	// Creates a GameObject in layer 'layer' which renders a mesh displaying the video stream.
 	// Places references to the Color array (as required), the texture and the material into the out parameters.
-	private GameObject CreateVideoBackgroundMesh(int index, int w, int h, int layer, out Color[] vbca, out Color32[] vbc32a, out Texture2D vbt, out Material vbm)
+	
+private GameObject CreateVideoBackgroundMesh(int index, int w, int h, int layer, out Color[] vbca, out Color32[] vbc32a, out Texture2D vbt, out Material vbm)
 	{
 		// Check parameters.
 		if (w <= 0 || h <= 0) {
@@ -1311,7 +1313,7 @@ public class ARController : MonoBehaviour
 		
 		return vbmgo;
 	}
-
+    
 	// Creates a GameObject holding a camera with name 'name', which will render layer 'layer'.
 	private GameObject CreateVideoBackgroundCamera(String name, int layer, out Camera vbc)
 	{
