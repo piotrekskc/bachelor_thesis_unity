@@ -499,7 +499,7 @@ public class ARController : MonoBehaviour
             Log(LogTag + "Render device: " + renderDevice + ", using Unity texturing.");
         }
 
-        CreateClearCamera();
+        //CreateClearCamera();
         
 		// Retrieve video configuration, and append any required per-platform overrides.
 		// For native GL texturing we need monoplanar video; iOS and Android default to biplanar format. 
@@ -689,34 +689,34 @@ public class ARController : MonoBehaviour
 				}
 	            */
 				// Create background camera(s) to actually view the "video background" layer(s).
-				bool haveStereoARCameras = false;
-				ARCamera[] arCameras = FindObjectsOfType(typeof(ARCamera)) as ARCamera[];
-				foreach (ARCamera arc in arCameras) {
-					if (arc.Stereo) haveStereoARCameras = true;
-				}
-				if (!haveStereoARCameras) {
-					// Mono display.
-					// Use only first video source, regardless of whether VideoIsStereo.
-					// (The case where stereo video source is used with a mono display is not likely to be common.)
-					_videoBackgroundCameraGO0 = CreateVideoBackgroundCamera("Video background", BackgroundLayer0, out _videoBackgroundCamera0);
-					if (_videoBackgroundCameraGO0 == null || _videoBackgroundCamera0 == null) {
-						Log (LogTag + "Error: unable to create video background camera.");
-					}
-				} else {
-					// Stereo display.
-					// If not VideoIsStereo, right eye will display copy of video frame.
-					_videoBackgroundCameraGO0 = CreateVideoBackgroundCamera("Video background (L)", BackgroundLayer0, out _videoBackgroundCamera0);
-					_videoBackgroundCameraGO1 = CreateVideoBackgroundCamera("Video background (R)", (VideoIsStereo ? BackgroundLayer1 : BackgroundLayer0), out _videoBackgroundCamera1);
-					if (_videoBackgroundCameraGO0 == null || _videoBackgroundCamera0 == null || _videoBackgroundCameraGO1 == null || _videoBackgroundCamera1 == null) {
-						Log (LogTag + "Error: unable to create video background camera.");
-					}
-				}
+				//bool haveStereoARCameras = false;
+				//ARCamera[] arCameras = FindObjectsOfType(typeof(ARCamera)) as ARCamera[];
+				//foreach (ARCamera arc in arCameras) {
+				//	if (arc.Stereo) haveStereoARCameras = true;
+				//}
+				//if (!haveStereoARCameras) {
+				//	// Mono display.
+				//	// Use only first video source, regardless of whether VideoIsStereo.
+				//	// (The case where stereo video source is used with a mono display is not likely to be common.)
+				//	_videoBackgroundCameraGO0 = CreateVideoBackgroundCamera("Video background", BackgroundLayer0, out _videoBackgroundCamera0);
+				//	if (_videoBackgroundCameraGO0 == null || _videoBackgroundCamera0 == null) {
+				//		Log (LogTag + "Error: unable to create video background camera.");
+				//	}
+				//} else {
+				//	// Stereo display.
+				//	// If not VideoIsStereo, right eye will display copy of video frame.
+				//	_videoBackgroundCameraGO0 = CreateVideoBackgroundCamera("Video background (L)", BackgroundLayer0, out _videoBackgroundCamera0);
+				//	_videoBackgroundCameraGO1 = CreateVideoBackgroundCamera("Video background (R)", (VideoIsStereo ? BackgroundLayer1 : BackgroundLayer0), out _videoBackgroundCamera1);
+				//	if (_videoBackgroundCameraGO0 == null || _videoBackgroundCamera0 == null || _videoBackgroundCameraGO1 == null || _videoBackgroundCamera1 == null) {
+				//		Log (LogTag + "Error: unable to create video background camera.");
+				//	}
+				//}
 
 				// Setup foreground cameras for the video configuration.
-				ConfigureForegroundCameras();
+				//ConfigureForegroundCameras();
 
 				// Adjust viewports of both background and foreground cameras.
-				ConfigureViewports();
+				//ConfigureViewports();
 
 				// On platforms with multithreaded OpenGL rendering, we need to
 				// tell the native plugin the texture ID in advance, so do that now.
@@ -1085,7 +1085,7 @@ public class ARController : MonoBehaviour
 
 			// Mono.
 			if (_videoTexture0 == null) {
-				Log(LogTag + "Error: No video texture to update.");
+				//Log(LogTag + "Error: No video texture to update.");
 			} else {
 
 				if (_useNativeGLTexturing) {
@@ -1230,90 +1230,7 @@ public class ARController : MonoBehaviour
 	// Creates a GameObject in layer 'layer' which renders a mesh displaying the video stream.
 	// Places references to the Color array (as required), the texture and the material into the out parameters.
 	
-private GameObject CreateVideoBackgroundMesh(int index, int w, int h, int layer, out Color[] vbca, out Color32[] vbc32a, out Texture2D vbt, out Material vbm)
-	{
-		// Check parameters.
-		if (w <= 0 || h <= 0) {
-			Log(LogTag + "Error: Cannot configure video texture with invalid video size: " + w + "x" + h);
-			vbca = null; vbc32a = null; vbt = null; vbm = null;
-			return null;
-		}
-		
-		// Create new GameObject to hold mesh.
-		GameObject vbmgo = new GameObject("Video source " + index);
-		if (vbmgo == null) {
-			Log(LogTag + "Error: CreateVideoBackgroundCamera cannot create GameObject.");
-			vbca = null; vbc32a = null; vbt = null; vbm = null;
-			return null;
-		}
-		vbmgo.layer = layer; // Belongs in the background layer.
 
-		// Work out size of required texture.
-		int textureWidth;
-		int textureHeight;
-		/*if ((!_useNativeGLTexturing && _useColor32) || Application.platform == RuntimePlatform.IPhonePlayer) {*/
-			textureWidth = w;
-			textureHeight = h;
-		/*} else {
-			textureWidth = Mathf.ClosestPowerOfTwo(w);
-			if (textureWidth < w) textureWidth *= 2;
-			textureHeight = Mathf.ClosestPowerOfTwo(h);
-			if (textureHeight < h) textureHeight *= 2;
-		}*/
-		Log(LogTag + "Video size " + w + "x" + h + " will use texture size " + textureWidth + "x" + textureHeight + ".");
-		
-		float textureScaleU = (float)w / (float)textureWidth;
-		float textureScaleV = (float)h / (float)textureHeight;
-		//Log(LogTag + "Video texture coordinate scaling: " + textureScaleU + ", " + textureScaleV);
-		
-		// Create stuff for video texture.
-		if (!_useNativeGLTexturing) {
-			if (_useColor32) {
-				vbca = null;
-				vbc32a = new Color32[w * h];
-			} else {
-				vbca = new Color[w * h];
-				vbc32a = null;
-			}
-		} else {
-			vbca = null;
-			vbc32a = null;
-		}
-		if (!_useNativeGLTexturing && _useColor32) vbt = new Texture2D(textureWidth, textureHeight, TextureFormat.ARGB32, false);
-		//else vbt = new Texture2D(textureWidth, textureHeight, TextureFormat.RGBA32, false);
-		else vbt = new Texture2D(textureWidth, textureHeight, TextureFormat.ARGB32, false);
-		vbt.hideFlags = HideFlags.HideAndDontSave;
-		vbt.filterMode = FilterMode.Bilinear;
-		vbt.wrapMode = TextureWrapMode.Clamp;
-		vbt.anisoLevel = 0;
-		
-		// Initialise the video texture to black.
-		Color32[] arr = new Color32[textureWidth * textureHeight];
-		Color32 blackOpaque = new Color32(0, 0, 0, 255);
-		for (int i = 0; i < arr.Length; i++) arr[i] = blackOpaque;
-		vbt.SetPixels32(arr);
-		vbt.Apply(); // Pushes all SetPixels*() ops to texture.
-		arr = null;
-
-		// Create a material tied to the texture.
-        Shader shaderSource = Shader.Find("VideoPlaneNoLight");
-		vbm = new Material(shaderSource); //ARToolKit5-Unity.Properties.Resources.VideoPlaneShader;
-		vbm.hideFlags = HideFlags.HideAndDontSave;
-		vbm.mainTexture = vbt;
-		//Log(LogTag + "Created video background material");
-		
-		// Now create a mesh appropriate for displaying the video, a mesh filter to instantiate that mesh,
-		// and a mesh renderer to render the material on the instantiated mesh.
-		MeshFilter filter = vbmgo.AddComponent<MeshFilter>();
-		filter.mesh = newVideoMesh(ContentFlipH, !ContentFlipV, textureScaleU, textureScaleV); // Invert flipV because ARToolKit video frame is top-down, Unity's is bottom-up.
-		MeshRenderer meshRenderer = vbmgo.AddComponent<MeshRenderer>();
-		meshRenderer.castShadows = false;
-		meshRenderer.receiveShadows = false;
-		vbmgo.GetComponent<Renderer>().material = vbm;
-		
-		return vbmgo;
-	}
-    
 	// Creates a GameObject holding a camera with name 'name', which will render layer 'layer'.
 	private GameObject CreateVideoBackgroundCamera(String name, int layer, out Camera vbc)
 	{
