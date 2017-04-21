@@ -110,6 +110,7 @@
     <Compile Include="Assets\BoardManager.cs" />
     <Compile Include="Assets\DisplayScript.cs" />
     <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\ModelPosition.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Core\AStarPathfinding.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Core\BreadthFirstSearch.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Core\Buff.cs" />
@@ -172,7 +173,6 @@
     <Compile Include="Assets\TBS Framework\Scripts\Tutorial\GUIController.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Tutorial\SampleSquare.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Tutorial\SampleUnit.cs" />
-    <Compile Include="Assets\panzer4position.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
