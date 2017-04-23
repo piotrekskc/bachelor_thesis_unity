@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 337682be1bf4be94d9b656914fb0e234
+timeCreated: 1492950748
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Scriptina
+  fontNames:
+  - Scriptina
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

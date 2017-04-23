@@ -73,18 +73,6 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\AnimationBehaviors.cs" />
@@ -111,6 +99,17 @@
     <Compile Include="Assets\DisplayScript.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\ModelPosition.cs" />
+    <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\DragMe.cs" />
+    <Compile Include="Assets\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\Scripts\TiltWindow.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Core\AStarPathfinding.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Core\BreadthFirstSearch.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Core\Buff.cs" />
@@ -173,6 +172,7 @@
     <Compile Include="Assets\TBS Framework\Scripts\Tutorial\GUIController.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Tutorial\SampleSquare.cs" />
     <Compile Include="Assets\TBS Framework\Scripts\Tutorial\SampleUnit.cs" />
+    <Compile Include="Assets\onExit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
@@ -185,8 +185,11 @@
     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\marker6666.txt" />
     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
+    <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\TBS Framework\ReleaseNotes.txt" />
+    <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
