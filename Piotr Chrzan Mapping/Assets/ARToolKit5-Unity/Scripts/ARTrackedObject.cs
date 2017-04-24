@@ -154,9 +154,11 @@ public class ARTrackedObject : MonoBehaviour
                         if (marker == baseMarker) {
                             // If this marker is the base, no need to take base inverse etc.
                             pose = origin.transform.localToWorldMatrix;
+                           // pose = marker.TransformationMatrix;
                         } else {
-						    pose = (origin.transform.localToWorldMatrix * baseMarker.TransformationMatrix.inverse * marker.TransformationMatrix);
-						}
+                            pose = (origin.transform.localToWorldMatrix * baseMarker.TransformationMatrix.inverse * marker.TransformationMatrix);
+                           // pose = marker.TransformationMatrix;
+                        }
 						transform.position = ARUtilityFunctions.PositionFromMatrix(pose);
 						transform.rotation = ARUtilityFunctions.QuaternionFromMatrix(pose);
 

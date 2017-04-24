@@ -110,7 +110,6 @@ public class AROrigin : MonoBehaviour
 			ARController.Log(LogTag + "Found " + markersEligibleForBaseMarker.Count + " markers eligible to become base marker.");
 		}
 	}
-
 	void Start()
 	{
 		FindMarkers();
