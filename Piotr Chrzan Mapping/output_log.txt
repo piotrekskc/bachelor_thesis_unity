@@ -1,0 +1,2 @@
+There should be 'pierwszy build_Data'
+folder next to the executable
