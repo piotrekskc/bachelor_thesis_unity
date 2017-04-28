@@ -19,6 +19,7 @@ public class UnitStatsPz4 : MonoBehaviour {
 
     public GameObject Unit;
     public GameObject AreaofMov;
+    public GameObject AreaofAttack;
 
     public Transform UnitTrans;
     
@@ -28,24 +29,24 @@ public class UnitStatsPz4 : MonoBehaviour {
         float ypos = Unit.transform.position.y;
         float zpos = Unit.transform.position.z;
 
-      Instantiate(AreaofMov, new Vector3(xpos,ypos,zpos),Unit.transform.rotation);
-
+      
+        var myArea = Instantiate(AreaofMov, new Vector3(xpos, ypos, zpos), Quaternion.identity);
+        myArea.transform.parent = gameObject.transform;
 
     }
-    
+   
+   
 
-    
 
     // Use this for initialization
     void Start () {
-        DrawAreaofMove();
-
+       
     }
    
     
     // Update is called once per frame
     void Update () {
-		
-	}
+        
+    }
     
     }
