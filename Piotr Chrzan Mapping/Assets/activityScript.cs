@@ -10,16 +10,31 @@ public class activityScript : MonoBehaviour {
 	}
     public GameObject shermanIcon;
     public GameObject PanelSherman;
-	// Update is called once per frame
-	void Update () {
+    public GameObject pz4icon;
+    public GameObject panelpz4;
+    public GameObject ussoldiericon;
+    public GameObject panelussoldier;
+    public GameObject gersoldiericon;
+    public GameObject panelgersoldier;
+    // Update is called once per frame
+    void Update () {
 
 
 		if(shermanIcon.activeSelf)
         {
             PanelSherman.SetActive(false);
         }
-
-
-
-	}
+        if (pz4icon.activeSelf)
+        {
+            panelpz4.SetActive(false);
+        }
+        if (ussoldiericon.activeSelf)
+        {
+            panelussoldier.SetActive(false);
+        }
+        if (gersoldiericon.activeSelf)
+        {
+            panelgersoldier.SetActive(false);
+        }
+    }
 }
