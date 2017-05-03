@@ -11,7 +11,8 @@ public class Pz4AttackScript : MonoBehaviour {
     void Start()
     {
        Button dstr =  AttackButton.GetComponent<Button>();
-        AttackButton.onClick.AddListener(UnitAttack.DrawAreaofAttack); 
+        AttackButton.onClick.AddListener(UnitAttack.DrawAreaofAttack);
+        AttackButton.onClick.AddListener(UnitAttack.AttackDistanceCalculation);
     }
 	
 	// Update is called once per frame

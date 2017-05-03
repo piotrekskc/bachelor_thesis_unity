@@ -4,10 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UnitStatsTank : MonoBehaviour {
 
-    public double HP = 100;
-    public float AttackRange = 5;
+    public float HP = 1;
+   
+    public Image HealthBar;
+    public float AttackRange;
     public float MovementRange = 3;
-    public double AttackStrength = 10;
+    public float AttackStrength = 10;
+    public float AttackFactor = 1;
     public double Defence = 5;
     public double DefenceFactor = 0;
     public double FrontArmour = 5;
@@ -21,13 +24,92 @@ public class UnitStatsTank : MonoBehaviour {
     public GameObject Unit;
     public GameObject AreaofMov;
     public GameObject AreaofAttack;
-    
-    
+
+    public GameObject YourUnitModel;
+    public GameObject EnemyUnitTank;
+    public GameObject EnemyUnitInfantry;
+
+    public Button AttackEnemyTankButton;
+    public Button AttackEnemyInfantryButton;
 
     public Transform UnitTrans;
     public Button NextTurnButton;
+    float DistToTank;
+    float DistToInfantry;
+    public void AttackDistanceCalculation()
+    {
+        DistToTank = Vector3.Distance(YourUnitModel.transform.position, EnemyUnitTank.transform.position);
+        DistToInfantry = Vector3.Distance(YourUnitModel.transform.position, EnemyUnitInfantry.transform.position);
+        float AttRangeRecalculated = AttackRange / 20;
+        if (DistToTank< AttRangeRecalculated)
+        {
+            AttackEnemyTankButton.gameObject.SetActive(true);
+        }
+        if(DistToInfantry< AttRangeRecalculated)
+        {
+            AttackEnemyInfantryButton.gameObject.SetActive(true);
+        }
+
+        Debug.Log(DistToTank);
+        Debug.Log(DistToInfantry);
+        
+    }
+
+    public UnitStatsTank EnemyTank;
+    public UnitStatsTank EnemyInfantry;
 
 
+
+    public void AttackTankinRange()
+    {
+        float RedZone = AttackRange / 30;
+        float YellowZone = 2 * AttackRange / 30;
+        float GreenZone = AttackRange/10;
+
+        if (DistToTank < RedZone)
+        {
+            AttackFactor = 5;
+        }
+        if (DistToTank < YellowZone && DistToInfantry > RedZone)
+        {
+            AttackFactor = 3;
+        }
+        if (DistToTank < GreenZone && DistToInfantry > YellowZone)
+        {
+            AttackFactor = 1;
+        }
+    }
+    public void AttackInfantryinRange()
+    {
+        float RedZone = AttackRange / 60;
+        float YellowZone = (2 * AttackRange) / 60;
+        float GreenZone = AttackRange / 20;
+        Debug.Log(DistToInfantry);
+        Debug.Log("RedZone");
+        Debug.Log(RedZone);
+        Debug.Log("YellowZone");
+        Debug.Log(YellowZone);
+        Debug.Log("GreenZone");
+        Debug.Log(GreenZone);
+        if (DistToInfantry < RedZone)
+        {
+            AttackFactor = 5;
+            EnemyInfantry.HP = EnemyInfantry.HP - AttackFactor * AttackStrength;
+        }
+        if (DistToInfantry < YellowZone && DistToInfantry > RedZone )
+        {
+            AttackFactor = 3;
+
+        }
+        if (DistToInfantry < GreenZone && DistToInfantry > YellowZone)
+        {
+            AttackFactor = 1;
+        }
+    }
+    public void DealDamage(float AttackFactor, float AttackStrength, float DefenceFactor, float Defence)
+    {
+        
+    }
     public void DrawAreaofMove()
     {
         float xpos = Unit.transform.position.x;
@@ -39,6 +121,7 @@ public class UnitStatsTank : MonoBehaviour {
         // myArea.transform.parent = gameObject.transform;
         myArea.gameObject.tag = "areas";
         myArea.transform.localScale = new Vector3(myArea.transform.localScale.x * MovementRange, myArea.transform.localScale.y * MovementRange, myArea.transform.localScale.z * MovementRange);
+        
     }
     public void DrawAreaofAttack()
     {
@@ -66,10 +149,15 @@ public class UnitStatsTank : MonoBehaviour {
     void Start () {
         Button dstr = NextTurnButton.GetComponent<Button>();
         NextTurnButton.onClick.AddListener(DestroyMyArea);
+        Button attackTank = AttackEnemyTankButton.GetComponent<Button>();
+        AttackEnemyTankButton.onClick.AddListener(AttackTankinRange);
+        Button attackInfantry = AttackEnemyTankButton.GetComponent<Button>();
+        AttackEnemyInfantryButton.onClick.AddListener(AttackInfantryinRange);
+
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
+        HealthBar.fillAmount = HP;
 	}
 }
