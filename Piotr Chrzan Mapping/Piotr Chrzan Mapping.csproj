@@ -107,6 +107,7 @@
     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTransitionalCamera.cs" />
     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARUtilityFunctions.cs" />
     <Compile Include="Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs" />
+    <Compile Include="Assets\DestroyArea.cs" />
     <Compile Include="Assets\MyScripts\BoardManager.cs" />
     <Compile Include="Assets\MyScripts\DisplayScript.cs" />
     <Compile Include="Assets\MyScripts\GameManager.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Assets\MyScripts\ModelPosition.cs" />
     <Compile Include="Assets\MyScripts\onExit.cs" />
     <Compile Include="Assets\PanelPz4.cs" />
+    <Compile Include="Assets\Pz4AttackScript.cs" />
     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
@@ -125,8 +127,9 @@
     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Scripts\TiltWindow.cs" />
-    <Compile Include="Assets\UnitStatsPz4.cs" />
+    <Compile Include="Assets\UnitStatsTank.cs" />
     <Compile Include="Assets\activityScript.cs" />
+    <Compile Include="Assets\pz4MarchButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
