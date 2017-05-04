@@ -121,7 +121,7 @@ public class UnitStatsTank : MonoBehaviour {
         float zpos = Unit.transform.position.z;
 
 
-        var myArea = Instantiate(AreaofMov, new Vector3(xpos, ypos, zpos), Quaternion.Euler(90,0,0));
+        var myArea = Instantiate(AreaofMov, new Vector3(xpos, 0.1f, zpos), Quaternion.Euler(90,0,0));
         // myArea.transform.parent = gameObject.transform;
         myArea.gameObject.tag = "areas";
         myArea.transform.localScale = new Vector3(myArea.transform.localScale.x * MovementRange, myArea.transform.localScale.y * MovementRange, myArea.transform.localScale.z * MovementRange);
@@ -133,7 +133,7 @@ public class UnitStatsTank : MonoBehaviour {
         float ypos = Unit.transform.position.y;
         float zpos = Unit.transform.position.z;
        
-            var myArea = Instantiate(AreaofAttack, new Vector3(xpos, ypos, zpos), Quaternion.Euler(90, 0, 0)) as GameObject;
+            var myArea = Instantiate(AreaofAttack, new Vector3(xpos, 0.1f, zpos), Quaternion.Euler(90, 0, 0)) as GameObject;
       
         // myArea.transform.parent = gameObject.transform;
         
