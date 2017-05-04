@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UnitStatsTank : MonoBehaviour {
 
-    public float HP = 100;
+    public float HP = 1;
    
     public Image HealthBar;
     public float AttackRange;
@@ -69,17 +69,14 @@ public class UnitStatsTank : MonoBehaviour {
         if (DistToTank < RedZone)
         {
             AttackFactor = 5;
-            EnemyInfantry.HP = EnemyTank.HP - AttackFactor * AttackStrength;
         }
         if (DistToTank < YellowZone && DistToInfantry > RedZone)
         {
             AttackFactor = 3;
-            EnemyTank.HP = EnemyTank.HP - AttackStrength * AttackFactor;
         }
         if (DistToTank < GreenZone && DistToInfantry > YellowZone)
         {
             AttackFactor = 1;
-            EnemyTank.HP = EnemyTank.HP - AttackStrength * AttackFactor;
         }
     }
     public void AttackInfantryinRange()
@@ -102,7 +99,6 @@ public class UnitStatsTank : MonoBehaviour {
         if (DistToInfantry < YellowZone && DistToInfantry > RedZone )
         {
             AttackFactor = 3;
-            EnemyInfantry.HP = EnemyInfantry.HP - AttackStrength * AttackFactor;
 
         }
         if (DistToInfantry < GreenZone && DistToInfantry > YellowZone)
@@ -162,7 +158,6 @@ public class UnitStatsTank : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        float healthbarHP = HP / 100;
-        HealthBar.fillAmount = healthbarHP;
+        HealthBar.fillAmount = HP;
 	}
 }
