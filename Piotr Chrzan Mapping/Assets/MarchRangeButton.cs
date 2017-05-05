@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class MarchRangeButton : MonoBehaviour {
 
-    public UnitStats movement;
+    public UnitStats MovementArea;
     public Button MarchButton;
     // Use this for initialization
     void Start () {
-        Button dstr = MarchButton.GetComponent<Button>();
-        MarchButton.onClick.AddListener(movement.DrawAreaofMove); 
+        Button SetMarch = MarchButton.GetComponent<Button>();
+        MarchButton.onClick.AddListener(MovementArea.DrawAreaofMove); 
 	}
 	
 	
