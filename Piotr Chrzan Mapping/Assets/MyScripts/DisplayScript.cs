@@ -9,7 +9,7 @@ public class DisplayScript : MonoBehaviour {
     void Start()
     {
         //Get Main Camera
-        myCams[0] = GameObject.FindGameObjectWithTag("Camera").GetComponent<Camera>();
+        myCams[0] = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
 
         //Find All other Cameras
         myCams[1] = GameObject.Find("Camera2").GetComponent<Camera>();
