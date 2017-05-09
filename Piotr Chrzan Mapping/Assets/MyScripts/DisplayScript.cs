@@ -12,7 +12,6 @@ public class DisplayScript : MonoBehaviour {
 
 
         Display.displays[1].Activate();
-
     }
 
    

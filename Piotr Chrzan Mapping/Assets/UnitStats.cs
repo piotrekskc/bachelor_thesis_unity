@@ -57,8 +57,7 @@ public class UnitStats : MonoBehaviour {
             AttackEnemyInfantryButton.gameObject.SetActive(true);
         }
 
-        Debug.Log(DistToTank);
-        Debug.Log(DistToInfantry);
+      
 
     }
 
@@ -93,14 +92,7 @@ public class UnitStats : MonoBehaviour {
         float YellowZone = (2 * AttackRange) / 60;
         float GreenZone = AttackRange / 20;
 
-        // TODO Usunac Logi
-        Debug.Log(DistToInfantry);
-        Debug.Log("RedZone");
-        Debug.Log(RedZone);
-        Debug.Log("YellowZone");
-        Debug.Log(YellowZone);
-        Debug.Log("GreenZone");
-        Debug.Log(GreenZone);
+        
 
         if (DistToInfantry < RedZone)
         {
