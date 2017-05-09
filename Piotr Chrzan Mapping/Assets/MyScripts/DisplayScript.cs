@@ -8,11 +8,13 @@ public class DisplayScript : MonoBehaviour {
     
     void Start()
     {
-      
 
 
-        Display.displays[1].Activate();
-    }
+        if (Application.isPlaying)
+        {
+            Display.displays[1].Activate();
+        }
+     }
 
    
 }
