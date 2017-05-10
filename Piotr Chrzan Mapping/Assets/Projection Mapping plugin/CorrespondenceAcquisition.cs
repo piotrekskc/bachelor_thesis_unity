@@ -10,7 +10,7 @@ public class CorrespondenceAcquisition : MonoBehaviour
     public Camera _mainCamera;
 
     private Calibration _calibrator;
-    private int _minNumberOfPoints = 7;
+    private int _minNumberOfPoints = 4;
     private List<Vector3> _objectPositions = new List<Vector3>();
     private List<Vector3> _imagePositions = new List<Vector3>();
     private bool _occludeWorld;
@@ -77,16 +77,19 @@ public class CorrespondenceAcquisition : MonoBehaviour
             }
             else
             {
-                if (_imagePositions.Count == _objectPositions.Count)
+                if (_imagePositions.Count < 4)
                 {
-                    // We have the same number of object and image positions, so we are starting a new correspondence. First is the object position
-                    CaptureWorldPoint();
-                }
-                else
-                {
-                    // we already have an object position, now we collect the 2D correspondence
-                    CaptureImagePoint();
-                    TriggerCalibration();
+                    if (_imagePositions.Count == _objectPositions.Count)
+                    {
+                        // We have the same number of object and image positions, so we are starting a new correspondence. First is the object position
+                        CaptureWorldPoint();
+                    }
+                    else
+                    {
+                        // we already have an object position, now we collect the 2D correspondence
+                        CaptureImagePoint();
+                        TriggerCalibration();
+                    }
                 }
             }
         }
@@ -160,6 +163,7 @@ public class CorrespondenceAcquisition : MonoBehaviour
     {
         GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         sphere.transform.position = point;
+        sphere.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
         sphere.tag = CALIB_SPHERE_TAG;
     }
 
