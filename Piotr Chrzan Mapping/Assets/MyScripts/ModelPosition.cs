@@ -3,24 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ModelPosition : MonoBehaviour {
-    public float EndOfMapX= 0.7056f;
-    public float EndOfMapZ = 0.7056f;
-    // Use this for initialization
-    void Start () {
+
+	// Use this for initialization
+	void Start () {
 		
 	}
 
-    public GameObject MyMarker;
-    public GameObject MyModel;
+    public GameObject marker;
+    public GameObject model;
+    //public GameObject Rcorner;
+    // Update is called once per frame
     void Update () {
 
-        var pos = MyMarker.transform.position;
-       
-        float xpos = pos.x / EndOfMapX;
-        float zpos = pos.z / EndOfMapZ;
-        var Marker = MyMarker.transform.rotation;
-        var Model = MyModel.transform.rotation;
-        MyModel.transform.position = new Vector3(xpos, 0.01f, zpos);
-        MyModel.transform.rotation = new Quaternion(Model.x, Marker.y, Model.z, Model.w);
+        var pos = marker.transform.position;
+       // var cornerPos = Rcorner.transform.position;
+        float xpos = pos.x / 0.7056f;
+        float zpos = pos.z / 0.7056f;
+        var rot = marker.transform.rotation;
+        var rotm = model.transform.rotation;
+        model.transform.position = new Vector3(xpos, 0.01f, zpos);
+        model.transform.rotation = new Quaternion(rotm.x, rot.y, rotm.z,rotm.w);
     }
 }

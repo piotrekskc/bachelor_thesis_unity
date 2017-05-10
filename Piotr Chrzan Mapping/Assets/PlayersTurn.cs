@@ -19,35 +19,44 @@ public class PlayersTurn : MonoBehaviour {
     public UnitStats Panzer4Stats;
     public UnitStats ShermanStats;
 
-    public void BraceFactorReset()
+    public void BraceFactorResetUS()
     {
         if (GermanPlayerTurn == false)
         {
             AmericanSoldierStats.BraceFactor = 0;
             ShermanStats.BraceFactor = 0;
         }
+    }
+
+    public void BraceFactorResetGerman()
+    {
         if (GermanPlayerTurn == true)
         {
             GermanSoldierStats.BraceFactor = 0;
             Panzer4Stats.BraceFactor = 0;
         }
-    }
-    
-    public void DigInChangeState()
+     }
+
+
+
+
+    public void DigInChangeStateUS()
     {
         if (GermanPlayerTurn == false)
         {
             AmericanSoldierStats.DefenceFactor = 1;
             ShermanStats.DefenceFactor = 1;
         }
+        
+    }
+    public void DigInChangeStateGerman()
+    {
         if (GermanPlayerTurn == true)
         {
             Panzer4Stats.DefenceFactor = 1;
             GermanSoldierStats.DefenceFactor = 1;
         }
-
     }
-  
 
     public void EndTurn()
     {
@@ -67,10 +76,10 @@ public class PlayersTurn : MonoBehaviour {
 	void Start () {
         Button NextTurn = NextTurnButton.GetComponent<Button>();
         NextTurnButton.onClick.AddListener(EndTurn);
-        NextTurnButton.onClick.AddListener(BraceFactorReset);
-        
-        NextTurnButton.onClick.AddListener(DigInChangeState);
-        
+        NextTurnButton.onClick.AddListener(BraceFactorResetUS);
+        NextTurnButton.onClick.AddListener(BraceFactorResetGerman);
+        NextTurnButton.onClick.AddListener(DigInChangeStateUS);
+        NextTurnButton.onClick.AddListener(DigInChangeStateGerman);
     }
 	
 	// Update is called once per frame
