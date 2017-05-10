@@ -17,26 +17,18 @@ Platform assembly: E:\Moja Praca InżynierskaMappingSoft\Piotr Chrzan Mapping\pi
 Loading E:\Moja Praca InżynierskaMappingSoft\Piotr Chrzan Mapping\pierwszy build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: E:\Moja Praca InżynierskaMappingSoft\Piotr Chrzan Mapping\pierwszy build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading E:\Moja Praca InżynierskaMappingSoft\Piotr Chrzan Mapping\pierwszy build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-<<<<<<< HEAD
-- Completed reload, in  0.140 seconds
-=======
 - Completed reload, in  0.130 seconds
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
 Platform assembly: E:\Moja Praca InżynierskaMappingSoft\Piotr Chrzan Mapping\pierwszy build_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\Moja Praca InżynierskaMappingSoft\Piotr Chrzan Mapping\pierwszy build_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 59Hz; virtual: 3200x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-<<<<<<< HEAD
-UnloadTime: 2.633057 ms
-=======
 The referenced script on this Behaviour (Game Object 'Panzer4Model') is missing!
  
 (Filename:  Line: 1754)
 
 UnloadTime: 2.640327 ms
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
 ARController: ARToolKit version 5.3.2 initialised.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -141,15 +133,11 @@ ARController (native): [info]ARController::initAR() called
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 2 now visible
-=======
 ARController (native): [info]Marker 0 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 1 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -161,13 +149,6 @@ ARController (native): [info]Marker 4 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 0 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
-=======
 ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -177,7 +158,6 @@ ARController (native): [info]Marker 3 no longer visible
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 3 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -185,19 +165,11 @@ ARController (native): [info]Marker 3 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Threshold mode set to 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 0 no longer visible
-=======
 ARController (native): [info]Marker 3 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 3 no longer visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -205,164 +177,118 @@ ARController (native): [info]Marker 3 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 3 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 ARController (native): [info]Marker 4 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-ARController (native): [info]Marker 1 no longer visible
+ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-ARController (native): [info]Marker 1 now visible
+ARController (native): [info]Marker 3 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 4 now visible
-=======
-ARController (native): [info]Marker 2 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-<<<<<<< HEAD
-=======
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-<<<<<<< HEAD
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
-=======
 ARController (native): [info]Marker 3 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -2452,7 +2378,6 @@ ARController (native): [info]Marker 2 no longer visible
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 2 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -2460,137 +2385,6 @@ ARController (native): [info]Marker 4 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
-=======
 ARController (native): [info]Marker 2 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -2720,7 +2514,6 @@ ARController (native): [info]Marker 1 now visible
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 4 no longer visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -2732,19 +2525,11 @@ ARController (native): [info]Marker 1 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
-=======
 ARController (native): [info]Marker 1 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 1 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -2752,73 +2537,6 @@ ARController (native): [info]Marker 4 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 3
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 0 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold set to 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 0 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
-=======
 ARController (native): [info]Marker 2 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -2880,7 +2598,6 @@ ARController (native): [info]Marker 2 no longer visible
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 2 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -2888,49 +2605,6 @@ ARController (native): [info]Marker 2 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold set to 117
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold set to 205
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
-=======
 ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -2972,7 +2646,6 @@ ARController (native): [info]Marker 2 no longer visible
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 2 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -2980,29 +2653,6 @@ ARController (native): [info]Marker 2 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold set to 41
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 0 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
-=======
 ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -3024,7 +2674,6 @@ ARController (native): [info]Marker 2 now visible
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 2 no longer visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -3032,19 +2681,11 @@ ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
-=======
 ARController (native): [info]Marker 2 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 2 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -3072,37 +2713,6 @@ ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-<<<<<<< HEAD
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
-=======
 ARController (native): [info]Marker 2 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -3132,86 +2742,6 @@ ARController (native): [info]Marker 2 now visible
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 0.3407934
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-<<<<<<< HEAD
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
-=======
-ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -3255,310 +2785,6 @@ ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-ARController (native): [info]Marker 2 no longer visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-<<<<<<< HEAD
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
-=======
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-<<<<<<< HEAD
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
-=======
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-<<<<<<< HEAD
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
-=======
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-<<<<<<< HEAD
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 3 no longer visible
-=======
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 2 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-<<<<<<< HEAD
-ARController (native): [info]Marker 3 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 1 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 0 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold mode set to 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Threshold set to 41
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 0 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 no longer visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ARController (native): [info]Marker 4 now visible
-=======
 ARController (native): [info]Marker 2 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -3652,7 +2878,166 @@ ARController (native): [info]Marker 2 no longer visible
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ARController (native): [info]Marker 2 now visible
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 no longer visible
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ARController (native): [info]Marker 2 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -3666,21 +3051,12 @@ ARController (native): [info]Closing ARToolKit video.
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 
-<<<<<<< HEAD
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2514.
-Total: 1.071270 ms (FindLiveObjects: 0.147112 ms CreateObjectMapping: 0.036778 ms MarkObjects: 0.879681 ms  DeleteObjects: 0.006842 ms)
-
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3bac -> priority: 1 
-  Thread -> id: 6a8 -> priority: 1 
-=======
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2445.
 Total: 1.317597 ms (FindLiveObjects: 0.165929 ms CreateObjectMapping: 0.056022 ms MarkObjects: 1.083244 ms  DeleteObjects: 0.011546 ms)
 
 Setting up 2 worker threads for Enlighten.
   Thread -> id: b90 -> priority: 1 
   Thread -> id: 2d7c -> priority: 1 
->>>>>>> parent of a363a1e... dodany skrypt threshold choose i mozna zmieniac typ thresholdingu oraz wartosc manuala
 ARController (native): [info]Removed marker (UID=0), now 4 markers loaded
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
