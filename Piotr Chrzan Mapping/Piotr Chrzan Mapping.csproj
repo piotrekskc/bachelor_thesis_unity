@@ -91,6 +91,15 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Emgu.CV">
+      <HintPath>Assets\Projection Mapping plugin\Plugins\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util">
+      <HintPath>Assets\Projection Mapping plugin\Plugins\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>Assets\Projection Mapping plugin\Plugins\System.Drawing.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\AnimationBehaviors.cs" />
@@ -124,6 +133,17 @@
     <Compile Include="Assets\MyScripts\onExit.cs" />
     <Compile Include="Assets\PanelPz4.cs" />
     <Compile Include="Assets\PlayersTurn.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\Calibration.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\CorrespondenceAcquisition.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\DrawLine.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\PointsRecordReplay.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\ProjectionController.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\Recording.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\Rotation.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\RotationConversion.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\SerializableVector3.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\SerializeExtensions.cs" />
+    <Compile Include="Assets\Projection Mapping plugin\StartTest.cs" />
     <Compile Include="Assets\RunRangeButton.cs" />
     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
