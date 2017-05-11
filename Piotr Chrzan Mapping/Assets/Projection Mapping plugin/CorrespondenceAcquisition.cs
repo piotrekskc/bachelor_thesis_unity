@@ -159,13 +159,7 @@ public class CorrespondenceAcquisition : MonoBehaviour
         _occludeWorld = false;
     }
 
-    private static void CreateSphereAt(Vector3 point)
-    {
-        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        sphere.transform.position = point;
-        sphere.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
-        sphere.tag = CALIB_SPHERE_TAG;
-    }
+   
 
     private void TriggerCalibration()
     {
@@ -194,5 +188,12 @@ public class CorrespondenceAcquisition : MonoBehaviour
         foreach (var point in worldPoints)
             CreateSphereAt(point);
         TriggerCalibration();
+    }
+    private static void CreateSphereAt(Vector3 point)
+    {
+        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        sphere.transform.position = point;
+        sphere.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        sphere.tag = CALIB_SPHERE_TAG;
     }
 }

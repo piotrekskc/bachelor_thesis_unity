@@ -124,7 +124,6 @@
     <Compile Include="Assets\MyScripts\GameManager.cs" />
     <Compile Include="Assets\MyScripts\GridGenerator.cs" />
     <Compile Include="Assets\MyScripts\ModelPosition.cs" />
-    <Compile Include="Assets\MyScripts\ProjectionMapping.cs" />
     <Compile Include="Assets\MyScripts\onExit.cs" />
     <Compile Include="Assets\PanelPz4.cs" />
     <Compile Include="Assets\PlayersTurn.cs" />
@@ -139,6 +138,7 @@
     <Compile Include="Assets\Projection Mapping plugin\SerializableVector3.cs" />
     <Compile Include="Assets\Projection Mapping plugin\SerializeExtensions.cs" />
     <Compile Include="Assets\Projection Mapping plugin\StartTest.cs" />
+    <Compile Include="Assets\RenderingTextureDeformation.cs" />
     <Compile Include="Assets\RunRangeButton.cs" />
     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
