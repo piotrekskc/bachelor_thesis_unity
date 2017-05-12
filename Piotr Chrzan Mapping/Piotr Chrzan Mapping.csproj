@@ -151,6 +151,7 @@
     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\ThresholdChoose.cs" />
     <Compile Include="Assets\UnitStats.cs" />
     <Compile Include="Assets\activityScript.cs" />
   </ItemGroup>
